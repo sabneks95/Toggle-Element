@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'toggleElement';
+  display=false;
+  toggle(){
+    this.display=!this.display;
+  }
 }
